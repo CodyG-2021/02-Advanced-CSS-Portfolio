@@ -8,16 +8,17 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
   <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&display=swap" rel="stylesheet">
   <title>Cody Gallagher's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
     <nav>
       <img class="profilePic" src="./assets/images/prof-pic.jpg" alt="A picture of Cody Gallagher">
+      <h1 class="myName">Cody Gallagher</h1>
       <ul>
-        <li class="myName">Cody Gallagher</li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#aboutMe">About Me</a></li>
         <li><a href="#contactMe">Contact Me</a></li>
@@ -49,14 +50,26 @@
     <section id="projects" class="projects">
       <h1>Current & Future Projects</h1>
       <section class="project-boxes">
-        <section class="re-web"></section>
-        <section class="codeSnips"></section>
-        <section class="comingSoon1"></section>
-        <section class="comingSoon2"></section>
-        <section class="comingSoon3"></section>
+        <section class="re-web">
+          <h3 class="projHeader">Refactored Website</h3>
+        </section>
+        <div class="project-boxes-lower">
+          <section class="codeSnips">
+            <h3 class="projHeader">Code Cards</h3>
+          </section>
+          <section class="rockPaper">
+            <h3 class="projHeader">Rock Paper Scissors</h3>
+          </section>
+          <section class="comingSoon1">
+            <h3 class="projHeader">Coming Soon</h3>
+          </section>
+          <section class="comingSoon2">
+            <h3 class="projHeader">Coming Soon</h3>
+          </section>
+        </div>
       </section>
     </section>
-    <section class="contactMe">
+    <section id="contactMe" class="contactMe">
       <h2>Contact Me</h2>
       <ul class="contactInfo">
         <li>
@@ -71,7 +84,7 @@
       </ul>
     </section>
     <footer>
-      &#169; Cody Gallagher 2021 &#127922;
+      &#169; Cody Gallagher &#127922;
     </footer>
   </main>
 </body>

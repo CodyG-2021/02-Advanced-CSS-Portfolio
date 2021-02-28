@@ -99,6 +99,9 @@ footer {
   background: -webkit-linear-gradient(rgb(0, 153, 255), var(--purple));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: font-size 1.5s;
+  transition: margin-left 1.5s;
+  transition: margin-top 1.5s;
 }
 
 .contactInfo li,
@@ -138,7 +141,21 @@ footer {
   padding: 2rem;
 }
 
+.project-boxes a {
+  text-decoration: none;
+}
+
+.projHeader1 {
+  color: var(--white);
+  position: relative;
+  text-shadow: -3px 1px 0px #480155;
+  top: 26px;
+  left: 14px;
+  transition: all 0.5s ease-in-out;
+}
+
 .projHeader {
+  color: var(--white);
   position: relative;
   text-shadow: -3px 1px 0px #480155;
   margin-top: -2rem;
@@ -228,7 +245,21 @@ footer {
   }
 }
 
+@media screen and (max-width: 645px) {
+  .myName {
+    font-size: 4rem;
+  }
+}
+
 @media screen and (max-width: 625px) {
+  .myName {
+    font-size: 3rem;
+    margin-top: 17rem;
+    margin-left: 1rem;
+    background: -webkit-linear-gradient(rgb(0, 153, 255), rgb(94, 1, 110));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   nav ul li {
     display: block;
   }
@@ -242,7 +273,9 @@ footer {
     font-size: 3rem;
     margin-top: 17rem;
     margin-left: 1rem;
-    text-shadow: -3px 1px 0px #000000;
+    background: -webkit-linear-gradient(rgb(0, 153, 255), rgb(94, 1, 110));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   nav ul li {
     display: block;
@@ -253,6 +286,14 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
+  .myName {
+    font-size: 2rem;
+    margin-top: 11rem;
+    margin-left: 20rem;
+    background: -webkit-linear-gradient(rgb(0, 153, 255), rgb(94, 1, 110));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   nav ul li {
     display: block;
   }

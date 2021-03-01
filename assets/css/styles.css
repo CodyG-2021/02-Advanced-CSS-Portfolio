@@ -1,3 +1,4 @@
+/* Variables */
 :root {
   --white: #f8f8ff;
   --orange: rgb(255, 136, 0);
@@ -9,6 +10,8 @@
   color: rgb(0, 0, 0);
   background-color: var(--orange);
 }
+
+/* Universal Selectors */
 
 * {
   box-sizing: border-box;
@@ -63,7 +66,7 @@ h3 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 footer {
@@ -73,6 +76,8 @@ footer {
   text-align: center;
   font-size: 2rem;
 }
+
+/* Class Selectors */
 
 .profilePic {
   position: absolute;
@@ -106,7 +111,8 @@ footer {
 
 .contactInfo li,
 .contactInfo li a {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .aboutMe,
@@ -158,8 +164,8 @@ footer {
   color: var(--white);
   position: relative;
   text-shadow: -3px 1px 0px #480155;
-  margin-top: -2rem;
-  padding-left: 1rem;
+  top: 35px;
+  left: 20px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -169,8 +175,8 @@ footer {
 .rockPaper {
   min-height: 10rem;
   margin: 2rem 0 1rem 1rem;
-  flex: 0 0 48%;
 }
+
 .re-web:hover,
 .codeSnips:hover,
 .rockPaper:hover,
@@ -210,7 +216,11 @@ footer {
   flex-wrap: wrap;
 }
 
-/*------------------------------- Media Queries--------------------------- */
+.project-boxes-lower a {
+  flex: 0 0 47%;
+}
+
+/*---Media Queries--- */
 
 @media screen and (max-width: 1154px) {
   .profilePic {
@@ -227,10 +237,7 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  .codeSnips,
-  .comingSoon1,
-  .comingSoon2,
-  .rockPaper {
+  .project-boxes-lower a {
     flex: 0 0 100%;
     min-width: 100%;
   }
@@ -340,85 +347,3 @@ footer {
     max-width: 50%;
   }
 }
-/* @media screen and (max-width: 768px) {
-  .codeSnips,
-  .comingSoon1,
-  .comingSoon2,
-  .rockPaper {
-    flex: 0 0 47%;
-    min-width: 47%;
-  }
-} */
-
-/* .main-stage {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  height: 100vh;
-} */
-
-/* .left-stage {
-  position: sticky;
-  display: flex;
-  flex: 1 0 20%;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  background-image: url(../images/cool-background-black.png);
-  background-size: cover;
-  box-shadow: 1px 0px 10px black;
-  background: radial-gradient(circle, rgba(199, 179, 179, 0) 0%, rgba(0,0,0,1) 80%), url(../images/cool-background-black.png);
-} */
-
-/* .right-stage {
-  display: flex;
-  flex-direction: row;
-  margin-left: 1.5rem;
-  flex: 1 0 80%;
-  border: 2px solid var(--orange);
-} */
-
-/* .scroll {
-  overflow-y: scroll;
-}::-webkit-scrollbar {
-  width: 10px;
-  background: transparent;
-} */
-/* .scroll {
-  overflow: hidden;
-}
-.scroll:hover {
-  overflow-y: scroll;
-} */
-/* .left-stage {
-  position: fixed;
-  top: 0%;
-  margin-top: 0rem;
-  left: 0%;
-  margin-left: 0rem;
-  background: radial-gradient(circle, rgba(199, 179, 179, 0) 0%, rgba(0,0,0,1) 80%), url(../images/White-Texture-HD-Backgrounds-5.jpg);
-  width: 80rem;
-  height: 100vh;
-  border-radius: 0px 45px 45px 0px;
-  box-shadow: inset 0px 0px 1000px rgba(0, 0, 0, 1), 0 0 25px rgba(0, 0, 0, 1);
-} */
-
-/* @media screen and (min-width: 768px) {
-  .left-stage {
-    top: 25%;
-    left: 25%;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .left-stage {
-    top: 0%;
-    left: 0%;
-  }
-} */
-
-/* border radius 50 */
-
-/* box-shadow 8 and 15 */

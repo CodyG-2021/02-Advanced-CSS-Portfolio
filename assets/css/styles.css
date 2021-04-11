@@ -178,24 +178,24 @@ figure {
 }
 
 .codeSnips,
-.comingSoon1,
-.comingSoon2,
-.rockPaper {
+.weatherDashboard,
+.workDay,
+.reFactor {
   min-height: 10rem;
   margin: 2rem 0 1rem 1rem;
 }
 
-.re-web:hover,
+.movieGrab:hover,
 .codeSnips:hover,
-.rockPaper:hover,
-.comingSoon1:hover,
-.comingSoon2:hover {
+.reFactor:hover,
+.weatherDashboard:hover,
+.workDay:hover {
   box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1),
     0 0 15px rgba(232, 102, 236, 1);
 }
 
-.re-web {
-  background-image: url(../images/refactor.png);
+.movieGrab {
+  background-image: url(../images/movieGrab.png);
   background-size: cover;
   min-height: 35rem;
   margin: 1rem;
@@ -207,14 +207,18 @@ figure {
   background-size: cover;
 }
 
-.rockPaper {
-  background-image: url(../images/rock-paper.png);
+.reFactor {
+  background-image: url(../images/refactor.png);
   background-size: cover;
 }
 
-.comingSoon1,
-.comingSoon2 {
-  background-image: url(../images/loading.jpg);
+.weatherDashboard {
+  background-image: url(../images/weatherDash.png);
+  background-size: cover;
+}
+
+.workDay {
+  background-image: url(../images/workDay.png);
   background-size: cover;
 }
 

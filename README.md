@@ -16,3 +16,5 @@ Below is a screen shot of the portfolio:
 Below is a link to the portfolio:
 
 https://codyg-2021.github.io/02-Advanced-CSS-Portfolio/
+
+![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)

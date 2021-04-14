@@ -177,6 +177,36 @@ figure {
   transition: all 0.5s ease-in-out;
 }
 
+.srcCode:hover,
+.srcCodeSmall:hover {
+	  box-shadow: inset 0px 0px 8px rgb(102, 193, 236),
+    0 0 15px rgba(102, 193, 236, 1);
+}
+
+.srcCode {
+  color: var(--white);
+  position: relative;
+  text-shadow: -3px 1px 0px #480155;
+	font-size: 12px;
+  left: 20px;
+  transition: all 0.5s ease-in-out;
+	max-width: 145px;
+	font-weight: bold;
+}
+
+.srcCodeSmallCont {
+	display: flex;
+}
+
+.srcCodeSmall {
+  color: var(--white);
+  position: relative;
+  text-shadow: -3px 1px 0px #480155;
+	font-size: 10px;
+  left: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
 .codeSnips,
 .weatherDashboard,
 .workDay,
@@ -203,7 +233,7 @@ figure {
 }
 
 .codeSnips {
-  background-image: url(../images/Snippet-Cheatsheet.png);
+  background-image: url(../images/Password-Generator2.png);
   background-size: cover;
 }
 
